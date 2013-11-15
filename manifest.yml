@@ -1,6 +1,8 @@
 ---
 applications:
   "jboss-as-kitchensink-ear-ear/target":
+    framework:
+      name: java_ee
     name: kitchensink
     mem: 512M  
     services:
